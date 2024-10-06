@@ -1,0 +1,8 @@
+.work-details {
+  width: 80%;
+  padding-left: 16px;
+}
+
+.work-details .date {
+  color: gray;
+}

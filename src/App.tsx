@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main>
         <Home />
+        <Experience />
       </main>
     </>
   );
