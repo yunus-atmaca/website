@@ -30,11 +30,11 @@ const Project = ({
           <h3>{name}</h3>
           <p>{description}</p>
           <div className="stores">
-            <a href={appStoreLink} style={{}}>
+            <a target="_blank" href={appStoreLink} style={{}}>
               <img width={512} height={548} src={play_store} />
               Apple Store
             </a>
-            <a href={googlePlayLink} style={{ marginLeft: 24 }}>
+            <a target="_blank" href={googlePlayLink} style={{ marginLeft: 24 }}>
               <img width={512} height={548} src={google_play} />
               Google Play
             </a>
