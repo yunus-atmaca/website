@@ -1,0 +1,46 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8vh;
+  height: 50vh;
+}
+
+.skills .content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.skills .content .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills .content .container .skill {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.skills .content .container .skill .title {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  color:skyblue;
+}
+
+.skills .content .container .skill ul {
+  margin: 0;
+  padding: 0;
+  margin-block-end: 1em;
+}
+
+.skills .content .container .skill li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 0.25em;
+  font-size: 0.8em;
+}
