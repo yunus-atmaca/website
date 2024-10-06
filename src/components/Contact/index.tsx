@@ -1,5 +1,6 @@
 import "./Contact.css";
 import mail from "../../assets/mail.png";
+import logo from "../../assets/logo.png";
 
 const Contact = () => {
   return (
@@ -18,6 +19,10 @@ const Contact = () => {
             target="_black"
           >
             Let’s get the conversation started!
+          </a>
+
+          <a href="/" className="a">
+            <img className="img" src={logo} />
           </a>
         </div>
       </div>

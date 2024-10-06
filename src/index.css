@@ -6,7 +6,6 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -19,21 +18,24 @@ h5,
 p {
   padding: 0;
   margin: 0;
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 h1 {
   font-size: 3.6em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 2.4em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h3 {
   font-size: 1.8em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h4 {
@@ -44,4 +46,10 @@ h4 {
 h5 {
   font-size: 1.2em;
   font-weight: 400;
+}
+
+ul, li, a, button {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
 }

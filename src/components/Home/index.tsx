@@ -5,8 +5,8 @@ const Home = () => {
     <section id="home">
       <div className="home">
         <div className="content">
-          <h3 className="hello">Hello!</h3>
-          <h1>
+          <h3 className="hello">Hello! 👋</h3>
+          <h1 className="dev-name">
             I'm <strong>Yunus ATMACA</strong>
           </h1>
           <h2 className="title">Mobile App Developer</h2>
