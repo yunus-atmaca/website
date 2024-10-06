@@ -1,0 +1,47 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: lightgray;
+}
+
+.contact .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.contact img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.contact h4 {
+  margin-left: 24px;
+  margin-right: 24px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.contact a {
+  padding: 12px 16px;
+  margin-top: 36px;
+  border-radius: 12px;
+  border: 0.5px solid skyblue;
+  background-color: white;
+  text-decoration-line: none;
+  color: black;
+}
+
+.contact a:visited {
+  color: black;
+}
+
+.contact a:active {
+  color: skyblue;
+}
