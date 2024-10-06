@@ -1,0 +1,36 @@
+.nav-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  height: 8vh;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 2;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav-container ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.nav-container li {
+  margin-right: 16px;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-container a:visited {
+  color: black;
+}
+
+.nav-container a:hover,
+a:active {
+  color: skyblue;
+}
