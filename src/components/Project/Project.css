@@ -1,0 +1,65 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.project-container ul {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  overflow-x: scroll;
+  padding: 0;
+}
+
+.project-container li {
+  display: flex;
+  list-style-type: none;
+  padding: 8px 12px;
+  border: 1px solid skyblue;
+  border-radius: 8px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+}
+
+.project img {
+  border-radius: 12px;
+  width: 180px;
+  height: 180px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.project .details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.project .details .stores {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.project .details .stores a img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  border-radius: 0px;
+  object-fit: contain;
+  box-shadow: none;
+}
+
+.project .details a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
